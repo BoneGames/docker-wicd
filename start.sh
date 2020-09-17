@@ -1,6 +1,3 @@
-docker build \
---tag docker-wicd .
-
 docker run \
 --interactive \
 --tty \
