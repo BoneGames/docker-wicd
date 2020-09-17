@@ -1,8 +1,7 @@
 docker run \
---interactive \
---tty \
---privileged=true \
---rm \
---security-opt apparmor=unconfined \
---net="host" \
-docker-wicd
+  --interactive \
+  --tty \
+  --privileged=true \
+  --rm \
+  --net="host" \
+  docker-wicd
